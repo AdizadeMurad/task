@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 50px;
+}
+#btn-key {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#inp-key-title {
+    width: 500px;
+    height: 50px;
+    font-size: 17px;
+}
+#inp-key-text{
+    width: 500px;
+    height: 50px;
+    font-size: 17px;
+}
+.card{
+    max-width: 490px;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+    margin-top: 40px;
+}
+.title{
+ border: 1px solid gray;
+}
+.text{
+    border: 1px solid gray;
+   }
